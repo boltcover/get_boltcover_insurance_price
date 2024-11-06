@@ -21,8 +21,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Bolt Cover helps UK retailers offer insurance at the point of sale
-This is an example of how to retrieve an insurance price for a specific insurance category and product price
+Bolt Cover (https://www.boltcover.com/) helps UK retailers offer insurance at the point of sale.
+
+This is an example of how to retrieve an insurance price for a specific insurance category and product price.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -44,14 +45,14 @@ You will need to have Ruby installed along with various gems.  The script has be
 
    "Baby & Toddler Furniture", "Beds & Accessories", "Benches", "Cabinets & Storage", "Chairs", "Entertainment Centers & TV Stands", "Furniture Sets", "Futon Frames", "Futon Pads", "Futons", "Office Furniture", "Ottomans", "Sofa Accessories", "Sofas", "Table Accessories", "Tables"
 3. Run ruby get_boltcover_insurance_price.rb at your command prompt.
-
+4. You should now get a price, if you have any issues submit an issue or email us at info@boltcover.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated** by the team at Bolt Cover.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
