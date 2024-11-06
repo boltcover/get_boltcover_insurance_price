@@ -39,7 +39,12 @@ You will need to have Ruby installed along with various gems.  The script has be
 
 ## Usage
 
-Run ruby get_boltcover_insurance_price.rb at your command prompt.
+1. Create a YAML file called get_boltcover_insurance_price.yml and insert the two attributes BOLT_BASE_URL and BOLT_API_KEY. If you are new to YAML see lines 20 onwards in the code file.  The base url will be https://api.boltcover.com/test if you are just getting started.
+2. Adjust the variables category and product_price to your needs, here are some categories you might use (note you can only use one at a time):
+
+   "Baby & Toddler Furniture", "Beds & Accessories", "Benches", "Cabinets & Storage", "Chairs", "Entertainment Centers & TV Stands", "Furniture Sets", "Futon Frames", "Futon Pads", "Futons", "Office Furniture", "Ottomans", "Sofa Accessories", "Sofas", "Table Accessories", "Tables"
+3. Run ruby get_boltcover_insurance_price.rb at your command prompt.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
