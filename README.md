@@ -25,7 +25,7 @@ Bolt Cover (https://www.boltcover.com/) helps UK retailers offer insurance at th
 
 This is an example of how to retrieve an insurance premium that will be offered to your customers for a specific product category and item price.
 
-Note the examples use furniture categories however we 
+Note the examples use furniture categories however we do cover other categories, contact us for more information.
 
 Bolt Warranty Limited Is Registered In England And Wales Under Company Number 14654818. Bolt Warranty Limited Is An Appointed Representative Of Innovative Risk Labs Ltd, Which Is Authorised And Regulated By The Financial Conduct Authority. Firm Reference Number 998330.
 
