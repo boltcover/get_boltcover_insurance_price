@@ -1,5 +1,5 @@
 # Bolt Cover helps UK retailers offer insurance at the point of sale
-# This is an example of how to retrieve an insurance price for a specific insurance category and product price
+# This is an example of how to retrieve an insurance premium that will be offered to your customers for a specific product category and item price
 
 # Run using: ruby get_boltcover_insurance_price.rb
 # This example is provided without warranty and may cause data loss if used in a production environment
