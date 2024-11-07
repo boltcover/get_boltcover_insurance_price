@@ -37,12 +37,12 @@ BOLT_API_KEY = yaml_settings["BOLT_API_KEY"]
 # Set the category, here are some others you may want to use:
 # "Baby & Toddler Furniture", "Beds & Accessories", "Benches", "Cabinets & Storage", "Chairs", "Entertainment Centers & TV Stands"
 # "Furniture Sets", "Futon Frames", "Futon Pads", "Futons", "Office Furniture", "Ottomans", "Sofa Accessories", "Sofas", "Table Accessories", "Tables"
-category = "Sofas" # Note this is the Bolt Cover category, email info@boltcover.com if you need these for your specific needs"
+category = "Sofas" # Note this is the Bolt Cover category, email developers@boltcover.com if you need these for your specific needs"
 
 # Retail price of the product in GBP (£)
 product_price = 1278.99 
 
-puts "Bolt Cover Insurance Price Example Generator."
+puts "Bolt Cover Insurance Premium Example Generator.."
 puts 
 puts "Visit https://api-docs.boltcover.com/ for more information about our API"
 puts "This example is provided without warranty and may cause data loss if used in a production environment"
@@ -61,16 +61,16 @@ time_diff = finish_time - start_time
 
 if !insurance_prices["insurance"]
   puts "API ERROR!  For more detailed information uncomment HTTParty::Basement.debug_output $stdout at the top of this file."
-  puts "Ensure you are using the correct Bolt Cover category, email info@boltcover.com for help."
+  puts "Ensure you are using the correct Bolt Cover product category, email developers@boltcover.com for help."
 else
-  # Note we only now do 5 year pricing so just look for that result and ignore any others
+  # We only offer 5 year insurance policies. Please ignore any other term lengths this method returns
   insurance_price = insurance_prices["insurance"].find { |hash| hash["term"] == "5" }["insurance_price"]
   puts
   puts "*********************************************************************************************************"
-  puts "The Bolt Cover Insurance price for the category '#{category}' with a product price of £#{product_price} is:"
+  puts "The Bolt Cover Insurance Premium (including Insurance Premium Tax)"
+  puts "for the product category '#{category}' with a item price of £#{product_price} is:"
   puts "£#{insurance_price}"
   puts "Request took #{time_diff} seconds"
   puts "*********************************************************************************************************"
-  puts "Note: The method of price rounding is set in the Bolt Cover Platform, contact us if you would like to discuss changing this setting."
 end
 
