@@ -23,7 +23,9 @@
 
 Bolt Cover (https://www.boltcover.com/) helps UK retailers offer insurance at the point of sale.
 
-This is an example of how to retrieve an insurance price for a specific insurance category and product price.
+This is an example of how to retrieve an insurance price for a specific insurance category and product price in Ruby.
+
+Bolt Warranty Limited Is Registered In England And Wales Under Company Number 14654818. Bolt Warranty Limited Is An Appointed Representative Of Innovative Risk Labs Ltd, Which Is Authorised And Regulated By The Financial Conduct Authority. Firm Reference Number 998330.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -37,7 +39,6 @@ You will need a test API key to make this script work, head over to https://app.
 
 You will need to have Ruby installed along with various gems.  The script has been tested against Ruby 3.2.3 only.
 
-
 ## Usage
 
 1. Create a YAML file called get_boltcover_insurance_price.yml and insert the two attributes BOLT_BASE_URL and BOLT_API_KEY. If you are new to YAML see lines 20 onwards in the code file.  The base url will be https://api.boltcover.com/test if you are just getting started.
@@ -45,7 +46,7 @@ You will need to have Ruby installed along with various gems.  The script has be
 
    "Baby & Toddler Furniture", "Beds & Accessories", "Benches", "Cabinets & Storage", "Chairs", "Entertainment Centers & TV Stands", "Furniture Sets", "Futon Frames", "Futon Pads", "Futons", "Office Furniture", "Ottomans", "Sofa Accessories", "Sofas", "Table Accessories", "Tables"
 3. Run ruby get_boltcover_insurance_price.rb at your command prompt.
-4. You should now get a price, if you have any issues submit an issue or email us at info@boltcover.com
+4. You should now get a price, if you have any issues submit an issue or email us at developers@boltcover.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
